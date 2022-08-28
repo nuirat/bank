@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav{
+  height: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+a{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #111;
+
+}
+.badbalance {
+  color: red;
+}
+.goodbalance {
+  color: rgb(34, 255, 0);
+}
+body{
+background-image: url('https://static4.depositphotos.com/1016929/320/i/950/depositphotos_3202168-stock-photo-money-background.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.transaction
+{
+background-color: rgba(5, 5, 125, 0.5);
+padding: 10px;
+margin: 10px;
+color: rgb(255, 255, 255);
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+border: solid;
+border-color: black;
+border-radius: 15px;
+font-weight: 600;
+
+}
+.balance{
+  background-color: rgb(233, 250, 250,0.6);
+padding: 10px;
+margin: 10px;
+color: rgb(101, 87, 87);
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+border-color: black;
+border-radius: 15px;
+font-weight: bold;
+}
+.Total{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.transactions{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+button{
+  background-color: rgb(2, 2, 140,0.6);
+  font-size: 20px;
+  color:white;
+ height: 50px;
+  border-radius: 15px;
+  margin: 5px;
+}
+button:hover{
+  background: #61dafb;
+  color: red;
+  
+}
+input{
+  text-align: center;
+  margin: 5px;
+  opacity: 80%;
+  height: 40px;
+  border-radius: 25px;
+}
